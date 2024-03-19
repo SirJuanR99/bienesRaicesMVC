@@ -1,0 +1,21 @@
+{
+    "name": "juandelatorre/bienes-raices-poo_php_inicio",
+    "description": "Creando un proyecto con POO",
+    "type": "project",
+   
+    "authors": [
+        {
+            "name": "Juan"
+        }
+    ],
+    "require": {
+        "intervention/image": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
